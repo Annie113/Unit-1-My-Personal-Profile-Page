@@ -124,23 +124,20 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #ccc;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
+footer {
+  width: 100%;
+  background: #fff;
+  min-height: 30px;
+  padding: 20px;
 }
 
 footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 20px 0 40px 20px;
-}
-
-footer .copyright {
   top: -8px;
   font-size: .75em;
 }
@@ -165,8 +162,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.instagram {
+  background-image: url(images/instagram icon.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
@@ -212,7 +209,7 @@ a.social:hover {
   }
 
   footer {
-    font-size: 1.3em;
+    font-size: 0.8em;
     margin-top: 100px;
   }
 
