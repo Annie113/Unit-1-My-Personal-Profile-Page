@@ -1,0 +1,6 @@
+/* HEADER */
+ header.home-banner {
+   background: url('images/iceland.jpg') no-repeat center;
+   padding-top: 60px;
+   min-height: 300px;
+ }
