@@ -64,8 +64,6 @@ header.home-banner, header.about-me-banner {
   text-align: center;
   background-size: cover!important;
   overflow: hidden;
-}
-header {
   line-height: 1.5;
 }
 header .profile-image {

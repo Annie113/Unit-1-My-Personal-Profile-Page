@@ -1,5 +1,29 @@
+/* HEADER */
+
 header.about-me-banner {
-  background: url('images/waterfall-iceland.jpg') no-repeat top center;
+  background: url('../images/waterfall-iceland.jpg') no-repeat top center;
   padding-top: 20px;
   min-height: 250px;
+}
+
+/* GRID */
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.grid {
+  width: 2000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px 200px;
+  grid-gap: 20px;
+  background-color: #f7f5f0;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: rgb(63, 85, 131, 0.5);
 }
