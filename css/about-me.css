@@ -3,27 +3,71 @@
 header.about-me-banner {
   background: url('../images/waterfall-iceland.jpg') no-repeat top center;
   padding-top: 20px;
-  min-height: 250px;
+  min-height: 350px;
+  color: white;
+}
+
+/* CONTENT */
+
+body {
+  background-color: #fff!important;
+}
+
+p {
+  text-align: left;
 }
 
 /* GRID */
 
 .grid-container {
-  display: flex;
-  justify-content: center;
   width: 100%;
+  padding: 20px 50px;
 }
-
-.grid {
-  width: 2000px;
+.grid, .grid-2 {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 200px 200px;
+  grid-auto-rows: repeat(3, 1fr);
   grid-gap: 20px;
-  background-color: #f7f5f0;
-  padding: 20px;
+  background-color: #fff;
+}
+.grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+img.pics {
+  width: 200px;
+  max-height: 190px;
+  border-radius: 10px
+}
+.heart-symbol {
+  width: 50px
+}
+.grid-2 {
+  grid-template-columns: 2fr 1fr;
+}
+.grid-item {
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+.textbox {
+  background-color: #DCE5EC;
+  width: 310px;
+  padding: 30px;
+  border-radius: 10px;
+}
+img.travel_pics {
+  width: 150px;
+  max-height: 150px;
+  border-radius: 15px
+  margin: 0px;
+}
+.grid-container-2 {
+  padding: 20px 80px;
 }
 
-.grid-item {
-  background-color: rgb(63, 85, 131, 0.5);
-}
+/* RESPONSIVES */
+
+@media screen and (min-width: 1440px) {
+
+  .grid-container .grid-container-2 {
+    padding: 20px 200px;
+  }

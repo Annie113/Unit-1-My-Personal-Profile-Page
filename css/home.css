@@ -2,6 +2,56 @@
 
  header.home-banner {
    background: url('../images/iceland.jpg') no-repeat center;
-   padding-top: 60px;
+   padding-top: 100px;
    min-height: 300px;
+ }
+ header .profile-image {
+   margin: 5px 0px 20px 0px;
+   width: 155px;
+   border-radius: 50%;
+   border: 5px double white;
+   transition: all .5s;
+ }
+ header .profile-image:hover {
+   transform: scale(1.2) rotate(5deg);
+ }
+ .tag {
+   padding: 10px;
+   border-radius: 5px;
+   display: table;
+   margin: 10px auto;
+ }
+ .location {
+   color: white;
+   background: rgb(63, 85, 131, 0.5);
+   padding: 10px;
+ }
+
+ /* CONTENT */
+
+ .card {
+   margin: 30px 15px 30px 15px;
+   padding: 20px 45px;
+   max-width: 500px;
+   text-align: left;
+   background: rgb(63, 85, 131, 0.5);
+   border-bottom: 4px solid #ccc;
+   border-radius: 6px;
+ }
+ .card:hover {
+   border-color: #fff;
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ ul.skills {
+   padding: 0;
+   text-align: center;
+ }
+ .skills li {
+   border-radius: 6px;
+   display: inline-block;
+   background: #ccc;
+   color: white;
+   padding: 5px 10px;
+   margin: 2px;
  }
