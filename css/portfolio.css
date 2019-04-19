@@ -1,0 +1,100 @@
+/* HEADER */
+
+header.portfolio-banner {
+  background: url('../images/iceland-rocks.jpg') no-repeat top left;
+  padding-top: 20px;
+  min-height: 250px;
+}
+header h1 {
+  color: #000;
+}
+
+/* CONTENT */
+
+body, main {
+  background-color: #fff;
+}
+
+.portfolio-intro {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* GRID */
+
+.grid-container, .grid-hp {
+  background-color: #5EAFD4;
+}
+
+.grid-container {
+  width: 100%;
+}
+
+.grid-hp {
+  display: grid;
+  grid-gap: 20px;
+  max-width: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 auto;
+}
+
+.grid-item {
+  position: relative;
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+.grid-item:hover .pf-pics {
+ opacity: 0.3;
+}
+
+img.pf-pics {
+  opacity: 1;
+  display: block;
+  width: 265px;
+  height: 500px;
+  transition: .5s ease;
+  margin: 0 auto;
+}
+
+.grid-tekst {
+  position: absolute;
+  top: 3%;
+  left: 9.5%;
+  width: 265px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: .10s;
+}
+
+div.hg-tekst {
+  background-color: rgb(47,87,106);
+  width: 200px;
+}
+
+.hg-tekst {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.hg-tekst h3, .hg-tekst p  {
+  color: #fff;
+}
+
+.grid-item:hover .grid-tekst {
+ opacity: 1;
+}
+
+/* RESPONSIVES */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}

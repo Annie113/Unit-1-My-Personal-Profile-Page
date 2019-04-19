@@ -5,7 +5,7 @@
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   color: #222;
   background: #f7f5f0;
@@ -17,13 +17,14 @@ body, a, .nav .name, p.tag.location {
 }
 
 p {
-  letter-spacing: 0.075em;
+  letter-spacing: 0.085em;
   line-height: 1.8em;
   font-size: 15px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'ZCOOL XiaoWei', serif;
+  letter-spacing: 0.085em;
 }
 
 a, .nav .name {
@@ -75,6 +76,14 @@ h1 {
   padding-top: 69px;
 }
 
+/* MAIN */
+
+.textbox {
+  background-color: #DCE5EC;
+  padding: 30px;
+  border-radius: 10px;
+}
+
 /* FOOTER */
 
 footer {
@@ -118,6 +127,12 @@ img.socials {
 }
 
 /* RESPONSIVES */
+@media screen and (max-width: 768px) {
+  .nav .name{
+    display: none;
+ }
+}
+
 @media screen and (min-width: 720px) {
 
   .flex {
@@ -136,6 +151,7 @@ img.socials {
 
   main {
     padding-top: 20px;
+    width: 100%;
   }
 
   footer {
