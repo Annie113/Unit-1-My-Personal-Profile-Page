@@ -114,10 +114,10 @@ div.hg-tekst {
  opacity: 1;
 }
 
-.grid-item-logo {
-  display: grid;
-}
-
 img.annies-logo {
   height: 200px;
+}
+
+.annies-tekst {
+  padding: 0px;
 }
