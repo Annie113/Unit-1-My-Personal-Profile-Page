@@ -5,6 +5,7 @@
    padding-top: 100px;
    min-height: 300px;
  }
+
  header .profile-image {
    margin: 5px 0px 20px 0px;
    width: 155px;
@@ -12,15 +13,18 @@
    border: 5px double white;
    transition: all .5s;
  }
+
  header .profile-image:hover {
    transform: scale(1.2) rotate(5deg);
  }
+
  .tag {
    padding: 10px;
    border-radius: 5px;
    display: table;
    margin: 10px auto;
  }
+
  .location {
    color: white;
    background: rgb(63, 85, 131, 0.5);
@@ -38,15 +42,17 @@
    border-bottom: 4px solid #ccc;
    border-radius: 6px;
  }
+
  .card:hover {
    border-color: #fff;
-   -webkit-transform: scale(1.1);
    transform: scale(1.1);
  }
+
  ul.skills {
    padding: 0;
    text-align: center;
  }
+ 
  .skills li {
    border-radius: 6px;
    display: inline-block;

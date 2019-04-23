@@ -24,7 +24,7 @@ p {
 
 h1, h2, h3 {
   font-family: 'ZCOOL XiaoWei', serif;
-  letter-spacing: 0.085em;
+  letter-spacing: 0.05em;
 }
 
 a, .nav .name {
@@ -45,6 +45,7 @@ a, .nav .name {
   position: absolute;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -52,20 +53,25 @@ a, .nav .name {
   list-style-type: none;
   margin: 0 auto;
 }
+
 .nav .name {
   display: block;
   margin-right: auto;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .1s;
 }
+
 .nav a:hover {
   color: #fff;
 }
-header.home-banner, header.about-me-banner {
+
+header.home-banner, header.about-me-banner, header.portfolio-banner  {
   text-align: center;
   background-size: cover!important;
   overflow: hidden;
@@ -128,7 +134,7 @@ img.socials {
 
 /* RESPONSIVES */
 @media screen and (max-width: 768px) {
-  .nav .name{
+  .nav .name {
     display: none;
  }
 }
@@ -136,10 +142,8 @@ img.socials {
 @media screen and (min-width: 720px) {
 
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1100px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }

@@ -24,39 +24,46 @@ p {
   width: 100%;
   padding: 20px 50px;
 }
+
 .grid, .grid-2 {
   width: 100%;
   display: grid;
   grid-gap: 10px;
   background-color: #fff;
 }
+
 .grid {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-auto-rows: repeat(3, 1fr);
 }
+
 img.pics {
   width: 200px;
   max-height: 190px;
   border-radius: 10px
 }
+
 .heart-symbol {
   width: 50px
 }
+
 .grid-2 {
   grid-template-columns: 60% 1fr;
 }
+
 .grid-item {
   margin: 0 auto;
   padding: 20px 30px;
 }
+
 img.travel_pics {
   width: 150px;
   max-height: 150px;
-  border-radius: 15px
+  border-radius: 10px;
   margin: 0px;
 }
+
 .grid-container-2 {
-  padding: 20px 80px;
+  padding: 30px;
 }
 
 /* RESPONSIVES */

@@ -1,12 +1,13 @@
 /* HEADER */
 
 header.portfolio-banner {
-  background: url('../images/iceland-rocks.jpg') no-repeat top left;
+  background: url('../images/sunset.jpg') no-repeat bottom;
   padding-top: 20px;
   min-height: 250px;
 }
-header h1 {
-  color: #000;
+
+header h1, a, .nav .name {
+  color: #DCE5EC;
 }
 
 /* CONTENT */
@@ -16,9 +17,16 @@ body, main {
 }
 
 .portfolio-intro {
-  width: 80%;
-  padding: 20px;
+  padding: 20px 20px 70px 20px;
+}
+
+.portfolio-intro, .annies-cook {
+  width: 60%;
   margin: 0 auto;
+}
+
+.annies-cook {
+  padding-top: 20px;
 }
 
 .HP-intro {
@@ -112,13 +120,4 @@ div.hg-tekst {
 
 img.annies-logo {
   height: 200px;
-}
-
-/* RESPONSIVES */
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (min-width: 1440px) {
-
 }
