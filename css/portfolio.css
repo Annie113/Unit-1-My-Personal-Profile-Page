@@ -3,7 +3,7 @@
 header.portfolio-banner {
   background: url('../images/sunset.jpg') no-repeat bottom;
   padding-top: 20px;
-  min-height: 250px;
+  min-height: 350px;
 }
 
 header h1, a, .nav .name {
