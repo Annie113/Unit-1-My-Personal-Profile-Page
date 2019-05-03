@@ -22,7 +22,7 @@ p {
 .grid-container {
   margin: 0 auto;
   width: 100%;
-  padding: 20px 50px;
+  padding: 0px 50px;
 }
 
 .grid, .grid-2 {
@@ -85,6 +85,7 @@ img.travel_pics {
 @media screen and (min-width: 2560px) {
   .travel, .games {
     max-width: 800px;
+    margin-left: 42px;
   }
   .games {
     padding-left: 191px;

@@ -25,6 +25,7 @@ p {
 h1, h2, h3 {
   font-family: 'ZCOOL XiaoWei', serif;
   letter-spacing: 0.05em;
+  line-height: 2em;
 }
 
 a, .nav .name {
@@ -67,8 +68,9 @@ a, .nav .name {
   transition: all .1s;
 }
 
-.nav a:hover {
+.nav a:hover, a:hover {
   color: #fff;
+
 }
 
 header.home-banner, header.about-me-banner, header.portfolio-banner  {
