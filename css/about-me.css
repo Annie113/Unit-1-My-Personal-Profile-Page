@@ -9,7 +9,7 @@ header.about-me-banner {
 
 /* CONTENT */
 
-body {
+body, .grid, .grid-2 {
   background-color: #fff!important;
 }
 
@@ -29,7 +29,6 @@ p {
   width: 100%;
   display: grid;
   grid-gap: 10px;
-  background-color: #fff;
 }
 
 .grid {
@@ -39,7 +38,7 @@ p {
 img.pics {
   width: 200px;
   max-height: 190px;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .heart-symbol {
@@ -67,22 +66,22 @@ img.travel_pics {
 }
 
 /* RESPONSIVES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
  .grid-container {
-    padding: 20px 10px
+    padding: 20px 10px;
  }
  .grid, .grid-2 {
    grid-template-columns: 1fr;
  }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width:1440px) {
   .grid-container .grid-container-2 {
     padding: 20px 200px;
   }
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width:2560px) {
   .travel, .games {
     max-width: 800px;
     margin-left: 42px;
